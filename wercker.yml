@@ -15,7 +15,8 @@ push:
         repository: $DOCKER_REPOSITORY
         #registry: https://registry.hub.docker.com
         registry: $DOCKER_REGISTRY
-        cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
+        cmd: java -jar /pipeline/source/target/springbootdemo-0.0.1.war
+
 deploy-accs:
   steps:
     # Deploy to Oracle Application Container Cloud
